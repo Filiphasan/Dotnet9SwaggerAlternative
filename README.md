@@ -1,2 +1,2 @@
-# Dotnet9SwaggerAlternative
-Scalar usage example ,n Dotnet 9.
+# Dotnet 9 Swagger Alternative
+Scalar usage example in Dotnet 9.
