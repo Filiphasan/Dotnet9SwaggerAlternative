@@ -45,8 +45,8 @@ if (app.Environment.IsDevelopment())
     {
         opt.WithTitle("Scalar Example") // Browser Tab Title
             .WithDarkMode(true) // Enable dark mode for UI
-            .WithTheme(ScalarTheme.Moon)
-            .WithDefaultHttpClient(ScalarTarget.Shell, ScalarClient.Curl);
+            .WithTheme(ScalarTheme.Moon) // Set theme
+            .WithDefaultHttpClient(ScalarTarget.Shell, ScalarClient.Curl); // Set default client for Sclar UI
     });
 }
 
